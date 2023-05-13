@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <style>
+      *{
+         
+          background-color:#19A7CE;
+          color: black;
+      }
+      
+  </style>
+</head>
+<body>
+  <h1 id="resultado"> Responde las siguientes preguntas </h1> 
+  
+  <div>
+    <form name="formulario">
+      <h3>1. ¿Cuáles son las 4 partes que conforman a un contenedor en el modelo box model?</h3>
+      <input type="radio" name="r1" value="a"> a. Márgen, borde, relleno y contenido <br>
+      <input type="radio" name="r1" value="b"> b. contenido,relleno,java y borde <br>
+      <input type="radio" name="r1" value="c"> c. borde,css grid,margen y relleno <br>
+
+      <h3>2. ¿Qué ocurre cuando no sé indican los atributos width y height?</h3>
+      <input type="radio" name="r2" value="a"> a. se producira un efecto contrario  <br>
+      <input type="radio" name="r2" value="b"> b. el texto se cargara despues de la imagen <br>
+      <input type="radio" name="r2" value="c"> c. el navegador no podrá reservar el sitio adecuado para la imagen <br>
+
+      <h3>3. ¿Qué es el content box? </h3>
+      <input type="radio" name="r3" value="a"> a. se define como el borde de un elemento<br>
+      <input type="radio" name="r3" value="b"> b. es el comportamiento CSS por defecto para el tamaño de la caja<br>
+      <input type="radio" name="r3" value="c"> c. se trata del relleno al añadir el ancho final  <br>
+
+      <h3>4. ¿Qué son los box sizing?</h3>
+      <input type="radio" name="r4" value="a"> a. son la sintaxis de una caja <br>
+      <input type="radio" name="r4" value="b"> b. el tamaño de la caja izquierdo y derecho <br>
+      <input type="radio" name="r4" value="c"> c. establece como se calcula el ancho y alto total de un elemento <br>
+
+      <h3>5. ¿Cuál es el orden que se sigue en el modelo de cajas css?</h3>
+      <input type="radio" name="r5" value="a"> a.  superior, derecha, inferior e izquierda. <br>
+      <input type="radio" name="r5" value="b"> b. derecha,inferior,borde y relleno <br>
+      <input type="radio" name="r5" value="c"> c. java, superior, izquierda y ancho <br>
+
+      <input type="button" value="enviar" onclick="procesarRespuestas()">
+    </form>
+  </div>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
